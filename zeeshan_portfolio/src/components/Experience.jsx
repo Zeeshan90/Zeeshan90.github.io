@@ -16,23 +16,27 @@ const Experience = () => {
             <img src="" alt="" />
           </div>
           <div className="right">
-            <h3>{data.role}</h3>
-            <h4>{data.organisation}</h4>
-            <h5>{data.startDate} {data.endDate} {data.location}</h5>
-              <li><ol>{data.experiences[0]}</ol>
-              <ol>{data.experiences[1]}</ol>
-              <ul>{data.experiences[2]}</ul>
-              <ul>{data.experiences[3]}</ul>
-              </li>
+                <h3>{data.role}</h3>
+                <h4>
+                  {data.organisation} - {data.location}
+                </h4>
+                <h5>
+                  {data.startDate} - {data.endDate}
+                </h5>
+              <ul>
+                  {data.experiences.map((experience, index) => (
+                    <li key={index}>{experience}</li>
+                  ))}
+              </ul>
           </div>
           </div>
           </>
-        )
+        );
        })
       }
     </div>
     </>
-  )
-}
+  );
+};
 
 export default Experience
