@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "role": "Mobile Application Developer | Remote, Full-Time",
+    "organisation": "Stanntech",
+    "startDate": "November, 2023",
+    "endDate": "Present",
+    "location": "Remote",
+    "experiences": [
+      "Developing and maintaining iOS native and cross-platform Flutter applications for diverse clients, delivering high-quality and feature-rich mobile experiences.",
+      "Collaborating with global teams to ensure feature alignment and high code standards across all app platforms",
+      "Applying best practices in performance optimization, memory management, and UI/UX design to create responsive and user-friendly mobile applications.",
+      "Utilizing CI/CD pipelines to streamline deployment and updates for iOS applications."
+      
+    ],
+    "imageSrc": "company/google.png"
+  },
+  {
+    "id": 2,
+    "role": "Senior Consultant | iOS Developer",
+    "organisation": "Abacus Consulting, Lahore",
+    "startDate": "2020",
+    "endDate": "Nov, 2022",
+    "location": "Lahore, Pakistan",
+    "experiences": [
+      "Led multiple iOS application projects, implementing complex security features including biometric authentication (Face ID, Touch ID).",
+      "Mentored junior developers, overseeing code reviews and ensuring adherence to best practices in coding standards, design patterns, and security protocols.",
+      "Collaborated with design teams to integrate UI/UX elements, enhancing user engagement and experience across various applications.",
+      "Streamlined app performance by optimizing memory usage and improving responsiveness, leading to a 20% improvement in load times."
+    ],
+    "imageSrc": "company/microsoft.png"
+  },
+  {
+    "id": 3,
+    "role": "Consultant | Mobile Application Developer",
+    "organisation": "Abacus Consulting, Lahore",
+    "startDate": "2020",
+    "endDate": "2022",
+    "location": "Lahore, Pakistan",
+    "experiences": [
+      "Collaborated with senior developers to design and maintain high-performance mobile applications, supporting business objectives and enhancing user satisfaction.",
+      "Contributed to the development of critical application features, ensuring quality through extensive testing, debugging, and code optimization.",
+      "Played a key role in improving user engagement by enhancing app functionality based on analytics and feedback, resulting in a 15% increase in retention rates."
+    ],
+    "imageSrc": "company/netflix.png"
+  },
+  {
+    "id": 4,
+    "role": "iOS Developer",
+    "organisation": "WBM International, Lahore",
+    "startDate": "2019",
+    "endDate": "2020",
+    "location": "Lahore, Pakistan",
+    "experiences": [
+      "Developed and maintained iOS applications for a range of clients, delivering responsive and high-quality solutions tailored to user needs.",
+      "Implemented feature updates based on market trends and user feedback, enhancing usability and functionality.",
+      "Participated in code reviews and maintained up-to-date knowledge of the latest iOS development trends and best practices."
+    ],
+    "imageSrc": "company/netflix.png"
+  }
+]
