@@ -5,10 +5,10 @@ const Navbar = () => {
     <>
     <div className='container navBar'>
         <div className='left nav-Item'>
-        Welcome to my Profile
+        Portfolio
         </div>
         <div className='right'>
-            <a href="" className='nav-Item'>Home</a>
+            <a href="" className='nav-Item'>About</a>
             <a href="" className='nav-Item'>Experience</a>
             <a href="" className='nav-Item'>Skills</a>
             <a href="" className='nav-Item'>Project</a>

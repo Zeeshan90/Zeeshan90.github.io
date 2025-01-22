@@ -11,7 +11,7 @@ const Experience = () => {
         console.log(data);
         return(
           <>
-          <div key={data.id} className="ex-items">
+          <div key={data.id} className="ex-items text-center my-5">
           <div className="left">
             <img src="" alt="" />
           </div>

@@ -3,7 +3,7 @@
     "key": 1,
     "title": "Upaisa - Branchless Banking Application",
     "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": "A comprehensive mobile banking solution developed entirely in Swift 5, allowing users to send and receive money and perform secure financial transactions.",
+    "description": ["A comprehensive mobile banking solution developed entirely in Swift 5, allowing users to send and receive money and perform secure financial transactions."],
     "view in App Store": "https://www.example.com"
   },
   {

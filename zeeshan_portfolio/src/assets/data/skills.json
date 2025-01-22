@@ -1,38 +1,57 @@
 [
   {
+    "id":1,
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
   {
+    "id":2,
     "title": "CSS",
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "id":3,
+    "title": "Swift",
+    "imageSrc": "skills/swift.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "id":4,
+    "title": "Kotlin",
+    "imageSrc": "skills/kotlin.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
+    "id":5,
+    "title": "Dart",
+    "imageSrc": "skills/dart.png"
   },
   {
+    "id":6,
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "id":7,
     "title":"Firebase",
     "imageSrc":"skills/firebase.png"
   },
   {
+    "id":8,
     "title": "GraphQL",
     "imageSrc": "skills/graphql.png"
   },
   {
+    "id":9,
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
+    "id":10,
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "id":11,
+    "title": "App Store Deployment",
+    "imageSrc": "skills/appStore.png"
   }
 ]

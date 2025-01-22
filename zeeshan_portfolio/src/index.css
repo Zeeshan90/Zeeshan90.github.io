@@ -80,3 +80,52 @@ a{
   }
   
 }
+/* Home Component styling ends */
+
+/* Experience Section style */
+
+.experience{
+  width: 900px;
+}
+.ex-items{
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+/* Experience Section style ends*/
+
+/* skills section style */
+.skills{
+  width: 900px;
+}
+.skills .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 700px; */
+  margin: auto;
+  
+}
+
+.skills .items .item{
+  width: calc(33.33%);
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: black;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+.skills .items .item img{
+  width: 60px;
+}
+
+/* skills section style ends*/
