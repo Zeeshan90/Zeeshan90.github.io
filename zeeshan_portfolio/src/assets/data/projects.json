@@ -2,14 +2,14 @@
   {
     "key": 1,
     "title": "Upaisa - Branchless Banking Application",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
+    "imageSrc": "https://www.upaisa.com/assets/images/upaise-logo.jpg",
     "description": ["A comprehensive mobile banking solution developed entirely in Swift 5, allowing users to send and receive money and perform secure financial transactions."],
     "view in App Store": "https://www.example.com"
   },
   {
     "key": 2,
     "title": "FAMS Corporate Car Sharing - Car-sharing Application",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
+    "imageSrc": "https://fms-international.com/wp-content/uploads/2024/09/logo-5.png",
     "description": ["A private car-sharing application developed for a Dubai-based organization, facilitating fleet management, car tracking, and secure access controls, developed in Swift 5.",
     "Enabled remote control features for fleet management, including engine control, lock/unlock, and accident monitoring.",
     "Integrated GPS tracking and reporting, allowing real-time location tracking for cars registered under the company's dashboard.",
@@ -32,7 +32,7 @@
   {
     "key": 4,
     "title": "Sipay - Payment Application",
-    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
+    "imageSrc": "https://sipay.com.tr/wp-content/uploads/2024/10/logo_new.svg",
     "description": [
       "A versatile payment application developed in Flutter, allowing users to handle financial transactions seamlessly on a secure and user-friendly platform.",
       "Implemented robust security features to protect user data, including secure APIs and encryption protocols.",

@@ -5,22 +5,17 @@ const Projects = () => {
   return (
     <div className="container project my-3">
       <h1>Projects</h1>
-      <div className="row">
-        {projects.map((data) => (
-          <div key={data.key} className="col-md-4">
-            <div className="card" style={{ width: "18rem" }}>
+      <div className="row d-flex justify-content-center">
+        {projects.map((data, index) => (
+          <div key={data.key} className="my-3 col-md-4 col-lg-3 col-sm-6 mx-3">
+            <div className="card bg-dark text-light h-100" style={{ width: "18rem" }}>
               <img
-                src={`/src/assets/${data.imageSrc}`}
+                src={data.imageSrc}
                 className="card-img-top"
                 alt={data.title}
               />
-              <div className="card-body">
+              <div className="card-body text-center">
                 <h5 className="card-title">{data.title}</h5>
-                <ul>
-                  {data.description.map((description, index) => (
-                    <li key={index}>{description}</li>
-                  ))}
-                </ul>
               </div>
             </div>
           </div>
