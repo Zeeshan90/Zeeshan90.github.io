@@ -8,73 +8,99 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #333;
-            background-color: #f9f9f9;
+            background-color: #f4f6f9;
             margin: 0;
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: auto;
-            background-color: #ffffff;
-            padding: 25px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        .header, .section-title {
-            color: #008080; /* Deep teal for headers and titles */
+        h1, h2, h3 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .header {
+            text-align: center;
+            color: #006666;
         }
         .header h1 {
-            font-size: 2.4em;
-            margin: 0;
-            text-align: center;
+            font-size: 2.6em;
         }
         .header p {
             font-size: 1.2em;
             color: #555;
-            text-align: center;
         }
         .contact-info {
             text-align: center;
             color: #666;
-            margin-bottom: 20px;
+            margin: 15px 0 30px 0;
         }
         .contact-info a {
-            color: #008080; /* Teal for links */
+            color: #008080;
             text-decoration: none;
         }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
         .section-title {
-            font-size: 1.5em;
-            border-bottom: 2px solid #008080; /* Teal border */
-            padding-bottom: 4px;
-            margin-top: 25px;
+            font-size: 1.6em;
+            color: #006666;
+            border-bottom: 2px solid #008080;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
         }
         ul {
-            list-style-type: none;
-            padding-left: 0;
+            padding: 0;
+            list-style: none;
         }
-        li:before {
+        ul li {
+            padding-left: 1em;
+            text-indent: -1em;
+        }
+        ul li::before {
             content: "• ";
             color: #008080;
         }
         .job-title {
             font-weight: bold;
-            font-size: 1.1em;
-            margin-top: 0.5em;
+            font-size: 1.2em;
+            margin-top: 10px;
+            color: #333;
         }
         .project-title {
             font-weight: bold;
-            color: #333;
+            color: #444;
+            font-size: 1.1em;
+        }
+        p, ul li {
+            font-size: 1em;
+            line-height: 1.6;
+            margin: 5px 0;
+        }
+        .highlight {
+            color: #008080;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <!-- Header -->
     <div class="header">
         <h1>M Zeeshan Ashraf</h1>
-        <p>Senior Mobile Application Developer</p>
+        <p>Mobile Application Developer | iOS Developer | Flutter Developer</p>
     </div>
 
+    <!-- Contact Information -->
     <div class="contact-info">
         📧 <a href="mailto:muhammadzeeshan1995@gmail.com">muhammadzeeshan1995@gmail.com</a> |
         📞 +923024186671 |
@@ -82,70 +108,106 @@
         <a href="https://www.linkedin.com/in/zeeshan-ashraf-68454a136" target="_blank">LinkedIn Profile</a>
     </div>
 
+    <!-- Professional Summary -->
     <div class="section">
         <h2 class="section-title">Professional Summary</h2>
-        <p>Experienced Mobile Application Developer with over 5 years of designing, developing, and deploying high-quality, secure applications on native iOS and Android platforms as well as cross-platform Flutter. Skilled in leading projects, optimizing code for performance, and collaborating effectively with cross-functional teams to ensure high-quality results.</p>
+        <p>
+            I am an experienced <span class="highlight">iOS and Flutter developer</span>  with over 5 years of hands-on experience in building and maintaining high-quality mobile applications. Starting my career as an iOS developer in 2018 at WBM, I have successfully contributed to a wide range of projects. In July 2020, I joined Abacus and played a key role in developing Pakistan's top leasing application, UPAISA. My expertise extends to both iOS and Flutter development, and in November 2022, I transitioned to a role where I continued to work on iOS and Flutter applications, developing solutions such as property apps, Uber-like apps, parking spot booking systems, and a Canada tax filing submission app. One of my notable Flutter projects was SSOBox, an app designed to fetch call and SMS logs and securely move them to a server for better communication insights.
+        </p>
     </div>
 
+    <!-- Core Competencies -->
     <div class="section">
         <h2 class="section-title">Core Competencies</h2>
         <ul>
-            <li><strong>Mobile Languages:</strong> Swift, Kotlin, Dart</li>
-            <li><strong>Frameworks & Tools:</strong> Xcode, Android Studio, UIKIT, Core Data, AV Foundation</li>
-            <li><strong>APIs & Network Integration:</strong> Alamofire, SwiftyJson, Firebase Cloud Messaging (FCM)</li>
-            <li><strong>Security & Deployment:</strong> Git, App Store Deployment, IXGuard, AES Encryption, Firebase Crashlytics</li>
+            <li><strong>iOS Development:</strong> Swift, Xcode, UIKit, CoreData, CoreAnimation, Auto Layout<, Swift UI</li>
+            <li><strong>Flutter Development:</strong> Dart, Flutter SDK, State Management (Provider, Riverpod, GetX), Firebase, Flutter Widgets</li>
+            <li><strong>Architecture & Design Patterns:</strong> MVVM, MVC, Clean Architecture</li>
+            <li><strong>Networking & APIs: </strong> RESTful APIs, GraphQL, JSON, Alamofire, Dio</li>
+            <li><strong>Version Control:  </strong> Git, CI/CD Pipelines</li>
+            <li><strong>Databases </strong> SQLite, Realm, Firebase Realtime Database, CoreData</li>
+            <li><strong>Other Tools & Technologies:</strong> Firebase, App Store Connect, Jira, Notion, Play Console</li>
+
         </ul>
     </div>
 
+    <!-- Professional Experience -->
     <div class="section">
         <h2 class="section-title">Professional Experience</h2>
-
-        <p class="job-title">Mobile Application Developer | Remote, Full-Time</p>
-        <p>Stanntech | <em>November 2022 - Present</em></p>
+        <p class="job-title">Mobile Application Developer | Stanntech</p>
+        <p><em>November 2022 - Present | Remote</em></p>
         <ul>
-            <li>Developing and maintaining iOS native and cross-platform Flutter applications for diverse clients, delivering high-quality and feature-rich mobile experiences.</li>
-            <li>Collaborating with global teams to ensure feature alignment and high code standards across all app platforms.</li>
-            <li>Applying best practices in performance optimization, memory management, and UI/UX design to create responsive and user-friendly mobile applications.</li>
-            <li>Utilizing CI/CD pipelines to streamline deployment and updates for iOS applications.</li>
+            <li>Developing and maintaining iOS native and cross-platform Flutter applications for diverse clients, delivering high-quality and feature-rich mobile experiences tailored to business needs.</li>
+            <li>Collaborating with global and cross-functional teams to ensure feature alignment, high code standards, and seamless integration across multiple platforms.</li>
+            <li>Applying best practices in performance optimization, memory management, and UI/UX design, resulting in responsive, visually appealing, and user-friendly mobile applications.</li>
+            <li>Integrating third-party APIs and SDKs, such as Firebase, Google Maps, and payment gateways, to enhance app functionality and provide a seamless user experience.</li>
+            <li>Implementing modern architecture patterns, such as MVVM and Provider (for Flutter), to create scalable and maintainable codebases.</li>
+            <li>Preparing and publishing applications to the App Store and Google Play Store, ensuring compliance with platform guidelines and policies.</li>
+            <li>Staying updated with the latest iOS and Flutter development trends, frameworks, and technologies to deliver innovative solutions.</li>
         </ul>
 
-        <p class="job-title">Senior Consultant | iOS Developer </p>
-        <p>Abacus Consulting, Lahore | <em>2020 - November 2022</em></p>
+
+        <p class="job-title">Senior Consultant | iOS Developer | Abacus Consulting</p>
+        <p><em>2020 - 2022 | Lahore, Pakistan</em></p>
         <ul>
-            <li>Led multiple iOS application projects, implementing complex security features including biometric authentication (Face ID, Touch ID).</li>
-            <li>Mentored junior developers, overseeing code reviews and ensuring adherence to best practices in coding standards, design patterns, and security protocols.</li>
-            <li>Collaborated with design teams to integrate UI/UX elements, enhancing user engagement and experience across various applications.</li>
-            <li>Streamlined app performance by optimizing memory usage and improving responsiveness, leading to a 20% improvement in load times.</li>
+            <li>Developed Pakistan’s top leasing application, <strong>UPAISA</strong>, from scratch alongside a team of Android and backend developers, delivering a high-performing and secure app.</li>
+            <li>Integrated advanced encryption techniques to safeguard user data and prevent attacks, ensuring the app remains secure and reliable.</li>
+            <li>Implemented biometric authentication methods, including <strong>Face ID</strong> and <strong>Touch ID</strong>, to enhance user security and convenience.</li>
+            <li>Optimized app performance using tools like <strong>Firebase Crashlytics</strong> to monitor and address issues proactively, resulting in a bug-free and seamless user experience.</li>
+            <li>Developed and executed detailed test cases to ensure robust functionality, high performance, and compatibility across multiple devices and iOS versions.</li>
+            <li>Set up and managed CI/CD pipelines to automate builds, testing, and deployments, significantly reducing time-to-market and improving efficiency.</li>
+            <li>Collaborated with teams using <strong>Jira</strong> for project management and <strong>Bitbucket</strong> for version control, ensuring seamless development workflows and task tracking.</li>
+            <li>Implemented state management techniques and efficient error-handling mechanisms, ensuring smooth app functionality and minimal disruptions for users.</li>
+            <li>Utilized deep linking and analytics to improve user engagement and provide actionable insights for performance improvements.</li>
+            <li>Consistently delivered a secure, user-friendly app, meeting tight deadlines and adhering to high-quality standards.</li>
         </ul>
 
-        <p class="job-title">Consultant | Mobile Application Developer</p>
-        <p>Abacus Consulting, Lahore | <em>2020 - 2022</em></p>
-        <ul>
-            <li>Collaborated with senior developers to design and maintain high-performance mobile applications, supporting business objectives and enhancing user satisfaction.</li>
-            <li>Contributed to the development of critical application features, ensuring quality through extensive testing, debugging, and code optimization.</li>
-            <li>Played a key role in improving user engagement by enhancing app functionality based on analytics and feedback, resulting in a 15% increase in retention rates.</li>
+
+        <p class="job-title">iOS Developer | WBM International</p>
+        <p><em>2019 - 2020 | Lahore</em></p>
+       <ul>
+            <li>Started my iOS development journey at WBM International, taking full ownership of app development projects and integrating third-party APIs to enhance functionality and user experience.</li>
+            <li>Developed a fully-functional <strong>e-commerce application</strong>, incorporating features such as <strong>secure payments</strong>, <strong>real-time order tracking</strong>, and <strong>user authentication</strong>, delivering a seamless shopping experience.</li>
+            <li>Worked on an app integrating <strong>Tuya devices</strong>, allowing users to connect, control, and monitor their smart devices through the app, a challenging and rewarding learning task as an entry-level developer.</li>
+            <li>Designed and developed an app connecting <strong>doctors and patients</strong>, providing essential features such as <strong>electronic prescriptions</strong>, <strong>doctor location tracking</strong>, and <strong>appointment booking</strong>, contributing to better healthcare service accessibility.</li>
+            <li>Optimized app performance through memory management and resource optimization techniques, achieving a <strong>20% improvement in app loading speed</strong>, ensuring faster and more responsive apps.</li>
+            <li>Implemented <strong>CoreData</strong> and <strong>SQLite</strong> for local data storage, ensuring data persistence and offline functionality across all developed apps.</li>
+            <li>Utilized <strong>third-party libraries</strong> and <strong>APIs</strong> for integrating advanced functionalities, such as <strong>payment gateways</strong>, <strong>geolocation services</strong>, and <strong>social media logins</strong>, enhancing app capabilities and user engagement.</li>
+            <li>Collaborated with cross-functional teams, including <strong>backend developers</strong> and <strong>UI/UX designers</strong>, to ensure smooth app development, testing, and deployment processes, maintaining high code quality and project timelines.</li>
+            <li>Ensured app compliance with <strong>App Store guidelines</strong> and best practices, including <strong>security protocols</strong>, <strong>privacy policies</strong>, and <strong>UI/UX design principles</strong>, resulting in successful app launches and updates.</li>
+            <li>Learned and applied best practices in <strong>debugging</strong>, <strong>error handling</strong>, and <strong>version control</strong> using Git to maintain a clean and maintainable codebase, ensuring app stability and scalability.</li>
         </ul>
 
-        <p class="job-title">iOS Developer</p>
-        <p>WBM International, Lahore | <em>2019 - 2020</em></p>
-        <ul>
-            <li>Developed and maintained iOS applications for a range of clients, delivering responsive and high-quality solutions tailored to user needs.</li>
-            <li>Implemented feature updates based on market trends and user feedback, enhancing usability and functionality.</li>
-            <li>Participated in code reviews and maintained up-to-date knowledge of the latest iOS development trends and best practices.</li>
-        </ul>
+
     </div>
 
     <div class="section">
         <h2 class="section-title">Key Projects</h2>
 
         <p class="project-title">UPaisa - Branchless Banking Application</p>
-        <p>A comprehensive mobile banking solution developed entirely in Swift 5, allowing users to send and receive money and perform secure financial transactions.</p>
+        <p>A comprehensive mobile banking solution developed entirely in Swift 5, enabling users to send and receive money, perform secure financial transactions, and manage their accounts with ease.</p>
         <ul>
-            <li>Implemented encryption and data protection using IXGuard, ensuring user data security and privacy.</li>
-            <li>Developed a user-friendly interface enabling seamless transactions, payments, and account management.</li>
-            <li>Integrated real-time notifications and monitoring using Firebase Crashlytics and Firebase Cloud Messaging (FCM).</li>
-            <li><a href="https://apps.apple.com/us/app/upaisa/id153673465" target="_blank">View on App Store</a></li>
+            <li>Implemented encryption and data protection using <strong>IXGuard</strong>, ensuring user data security and privacy, and protecting against reverse engineering and tampering.</li>
+            <li>Developed a user-friendly interface with a focus on accessibility and ease of navigation, enabling seamless transactions, payments, account management, and bill payments.</li>
+            <li>Integrated <strong>real-time notifications</strong> and monitoring using <strong>Firebase Crashlytics</strong> and <strong>Firebase Cloud Messaging (FCM)</strong>, providing users with timely updates and app status alerts.</li>
+            <li>Implemented secure authentication with <strong>biometric verification</strong> (Face ID/Touch ID), providing an added layer of security for user login and transactions.</li>
+            <li>Optimized app performance for faster transaction processing and smoother user experience, ensuring the app remains responsive even with heavy traffic.</li>
+            <li>Collaborated with backend developers to integrate <strong>real-time transaction tracking</strong> and secure payment gateways for seamless fund transfers.</li>
+            <li>Ensured compliance with financial regulations and security standards, delivering a highly secure and trustworthy mobile banking solution.</li>
+            <li>Enabled users to perform a variety of financial services, including:
+                <ul>
+                    <li><strong>Money Transfers</strong>: Send and receive funds to any UPaisa wallet, bank account, CNIC, or other mobile wallets in the industry.</li>
+                    <li><strong>Mobile Recharge</strong>: Hassle-free prepaid and postpaid mobile recharges on any network with just a single tap.</li>
+                    <li><strong>Bill Payments</strong>: Pay utility bills such as electricity, gas, water, internet, and PTCL bills on the go.</li>
+                    <li><strong>UPaisa Debit Card</strong>: Access a co-branded physical and virtual debit card for secure e-commerce, POS, and ATM transactions nationwide.</li>
+                    <li><strong>International Remittance</strong>: Receive international remittances directly into the UPaisa account, facilitating cross-border transactions.</li>
+                    <li><strong>UCash</strong>: Access instant micro-loans starting as low as Rs. 100, with transparent fees and flexible repayment options.</li>
+                    <li><strong>Spin & Win Daily</strong>: Participate in daily spin games to win cash prizes, directly deposited into the UPaisa account.</li>
+                </ul>
+            </li>
+            <li><a href="https://apps.apple.com/us/app/upaisa/id153673465" target="_blank">Click to view on AppStore</a></li>
         </ul>
+
 
         <p class="project-title">FAMS Corporate Car Sharing - Car-sharing Application</p>
         <p>A private car-sharing application developed for a Dubai-based organization, facilitating fleet management, car tracking, and secure access controls, developed in Swift 5.</p>
@@ -153,7 +215,7 @@
             <li>Enabled remote control features for fleet management, including engine control, lock/unlock, and accident monitoring.</li>
             <li>Integrated GPS tracking and reporting, allowing real-time location tracking for cars registered under the company's dashboard.</li>
             <li>Collaborated with the company to design a secure dashboard for managing the car fleet remotely.</li>
-            <li><a href="https://apps.apple.com/us/app/fams-corporate-car-sharing/id1524627372" target="_blank">View on App Store</a></li>
+            <li><a href="https://apps.apple.com/us/app/fams-corporate-car-sharing/id1524627372" target="_blank">Click to view on AppStore</a></li>
         </ul>
 
         <p class="project-title">HNO Shareholder Portal - Shareholder Application</p>
@@ -162,7 +224,7 @@
             <li>Built comprehensive share trading features, enabling shareholders to buy and sell shares securely.</li>
             <li>Implemented strong encryption and authentication techniques to protect sensitive financial data.</li>
             <li>Included real-time updates and notifications for company announcements and share transactions.</li>
-            <li><a href="https://apps.apple.com/us/app/hno-shareholder-portal/id1538412452" target="_blank">View on App Store</a></li>
+            <li><a href="https://apps.apple.com/us/app/hno-shareholder-portal/id1538412452" target="_blank">Click to view on AppStore</a></li>
         </ul>
 
         <p class="project-title">Sipay - Payment Application</p>
@@ -171,7 +233,7 @@
             <li>Implemented robust security features to protect user data, including secure APIs and encryption protocols.</li>
             <li>Enhanced user experience with an intuitive interface, designed for simplicity in managing payments, transfers, and account activities.</li>
             <li>Integrated Google Play Store services and monitored performance metrics to ensure smooth user engagement across different devices.</li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.app.sipay&hl=en&gl=US" target="_blank">View on Google Play Store</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.app.sipay&hl=en&gl=US" target="_blank">Click to view on AppStore</a></li>
         </ul>
 
         <p class="project-title">Swizio - Event Management App</p>
@@ -180,35 +242,23 @@
             <li>Created core functionalities for event scheduling, registration, and reminders, using a clean and intuitive UI/UX design.</li>
             <li>Enabled real-time notifications and updates for events through Firebase, keeping users informed of changes and announcements.</li>
             <li>Optimized performance with efficient data handling for larger events, ensuring a smooth experience across all devices.</li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.swizio.application&hl=en&gl=US" target="_blank">View on Google Play Store</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.swizio.application&hl=en&gl=US" target="_blank">Click to view on AppStore</a></li>
         </ul>
     </div>
 
+        <!-- Education -->
     <div class="section">
         <h2 class="section-title">Education</h2>
-        <p><strong>Bachelor of Science in Computer Science</strong></p>
-        <p>University of Sargodha, Lahore | <em>2014 - 2018</em></p>
-
-        <p><strong>Intermediate in Computer Science</strong></p>
-        <p>Pakistan School, Bahrain | <em>2012 - 2014</em></p>
+        <p><strong>Secondary School Education</strong> | Pakistan School | Manama, Bahrain | <em>2010-2014</em></p>
+        <p><strong>Bachelor of Science in Computer Science</strong> | University of Sargodha | Lahore, Pakistan | <em>2014-2018</em></p>
     </div>
 
+    <!-- Hobbies -->
     <div class="section">
-        <h2 class="section-title">Languages</h2>
-        <ul>
-            <li>English: Professional proficiency</li>
-            <li>Urdu: Native</li>
-        </ul>
+        <h2 class="section-title">Hobbies</h2>
+        <p>I enjoy <strong>traveling</strong> and exploring new places, which allows me to experience different cultures and landscapes. I am also passionate about <strong>playing outdoor games</strong>, including <strong>table tennis</strong>, <strong>badminton</strong>, and <strong>cricket</strong>. I like to explore new outdoor games and constantly seek  new experiences. Additionally, I enjoy playing <strong>PS games</strong> as a way to relax and unwind.</p>
     </div>
 
-    <div class="section">
-        <h2 class="section-title">Interests</h2>
-        <ul>
-            <li>Technology Trends</li>
-            <li>AI</li>
-            <li>Travel</li>
-        </ul>
-    </div>
 </div>
 
 </body>
