@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const app = express();
 
 // Serve static files from the dist directory
