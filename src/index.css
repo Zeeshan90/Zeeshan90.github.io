@@ -1,17 +1,18 @@
 :root{
-  --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5);
-  --bg-color: rgb(40,47,97);
+  /* --box-shadow:5px 5px 10px 10px rgba(101,175,10,0.5); */
+  /* --bg-color: rgb(40,47,97); */
 }
 
 
 body{
-  background-color: rgb(11,26,51);
-  color: white;
+  /* background-color: rgb(11,26,51); */
+background-color: white;
+  color: black;
 }
 /* NavBar styling */
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .navBar {
   display: flex;
@@ -24,7 +25,7 @@ a{
   font-weight: bold;
 }
 .navBar .nav-Item:hover{
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid black;
 }
 /* NavBar styling end */
 
@@ -41,8 +42,8 @@ a{
   text-align: center;
   padding: 30px;
   border-radius: 10px;
-  border: 1px solid yellow;
-  box-shadow: var(--box-shadow);
+  border: 1px solid lightgray;
+  box-shadow: rgb(24, 23, 23);
 }
 .home .right .zeeImg{
   display: flex;
@@ -53,12 +54,13 @@ a{
   height: 300px;
   width: 300px;
   border-radius: 100%;
-  border: 5px solid yellow;
+  border: 5px solid lightgray;
+  box-shadow: rgb(24, 23, 23);
   animation-name: animationEffect;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-@keyframes animationEffect {
+/* @keyframes animationEffect {
   0%{
     border-color: blue;
     transform: translate(0,0px);
@@ -79,7 +81,7 @@ a{
     box-shadow: 10px 10px 100px 50px rgb(50,55,205);
   }
   
-}
+} */
 /* Home Component styling ends */
 
 /* Experience Section style */
@@ -95,8 +97,8 @@ a{
   padding: 30px;
   width: 800px;
   border-radius: 10px;
-  border: 1px solid yellow;
-  box-shadow: var(--box-shadow);
+  border: 1px solid lightgray;
+  box-shadow: rgb(24, 23, 23);
 }
 /* Experience Section style ends*/
 
@@ -121,11 +123,82 @@ a{
   text-align: center;
   border-radius: 20px;
   background-color: black;
-  border: 1px solid yellow;
-  box-shadow: var(--box-shadow);
+  border: 1px solid lightgray;
+  box-shadow: rgb(24, 23, 23);
 }
 .skills .items .item img{
   width: 60px;
 }
 
 /* skills section style ends*/
+
+/* Style for Contact Page */
+.contact-page {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: rgb(24, 23, 23);
+}
+
+.contact-form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+/* Contact style ends */
