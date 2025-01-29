@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "start": "node server.cjs"
+    "start": "node server.mjs",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "express": "^4.21.2",
