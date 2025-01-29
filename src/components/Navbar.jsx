@@ -6,19 +6,19 @@ const Navbar = () => {
     <div className="container navBar">
       <div className="left nav-Item">Portfolio</div>
       <div className="right">
-        <NavLink to="/zeeshan-portfolio" className="nav-Item" activeClassName="active" end>
+        <NavLink to="/" className="nav-Item" activeClassName="active" end>
           About
         </NavLink>
-        <NavLink to="/zeeshan-portfolio/experience" className="nav-Item" activeClassName="active">
+        <NavLink to="/experience" className="nav-Item" activeClassName="active">
           Experience
         </NavLink>
-        <NavLink to="/zeeshan-portfolio/skills" className="nav-Item" activeClassName="active">
+        <NavLink to="/skills" className="nav-Item" activeClassName="active">
           Skills
         </NavLink>
-        <NavLink to="/zeeshan-portfolio/projects" className="nav-Item" activeClassName="active">
+        <NavLink to="/projects" className="nav-Item" activeClassName="active">
           Projects
         </NavLink>
-        <NavLink to="/zeeshan-portfolio/contact" className="nav-Item" activeClassName="active">
+        <NavLink to="/contact" className="nav-Item" activeClassName="active">
           Contact
         </NavLink>
       </div>
